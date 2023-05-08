@@ -1,0 +1,249 @@
+.App{
+  margin: 0 auto;
+  width: 100%;
+}
+.nav-bar{
+  background-color: #0041FE;
+  /* text-align: center; */
+  height: 65px;
+  font-size: 1.9rem;
+  font-weight: bold;
+  /* color: yellow; */
+
+}
+.nav-title{
+  color: yellow;
+}
+.nav-btn{
+  height: 30px;
+  margin-right: 10px;
+  background-color: inherit;
+  border: none;
+  width: 70px;
+  border-radius: 10px;
+font-size: 15px;
+align-items: center;
+/* background-color: black; */
+  
+}
+.btn4:hover{
+  background-color: lightyellow;
+  font-size:medium;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  }
+.btn2:hover{
+background-color: skyblue;
+font-size:medium;
+box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.btn3:hover{
+  background-color: lightgreen;
+  font-size:medium;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  }
+.nav-title{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.text{
+  color: blueviolet;
+  text-align: center;
+  margin-top: 100px;
+}
+.valid{
+  color: coral;
+  font-size: 30px;
+}
+.text:hover{
+  background-color: #f2e9e4;
+  border-radius: 50px;
+}
+
+.title{
+  text-align: center;
+  border-radius: 30px;
+  margin-top: 20px;
+
+}
+.title:hover{
+  background-color: #fed9b7;
+  /* padding: 10px; */
+}
+.inner-container{
+  text-align: center;
+  border: 2px solid skyblue;
+  width: fit-content;
+  padding: 20px;
+  height: 300px;
+  margin-top: 50px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  /* background-color: skyblue; */
+  height: 725px;
+  margin-top: 20px;
+}
+.login{
+  background-color: lightblue;
+  height:400px;
+  }
+.login-container{
+ background-color: skyblue;
+}
+.forgot-container{
+  background-color: #ED4444;
+}
+.forgot{
+  background-color: #F22D2D;
+}
+.sign{
+ background-color: lightgreen;
+ height: 450px;
+ width: 300px;
+}
+.sign-container{
+  background-color: #33F219;
+  width: 700px;
+}
+.cust{
+  background-color: lightgrey;
+  height: 500px;
+ width: 300px;
+
+}
+.cust-container{
+  background-color: lightgreen;
+}
+.input{
+  width: 250px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+}
+.tinput{
+  margin-top: 10px;
+}
+.input:hover{
+  border: 1px solid skyblue;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.for{
+  font-size: 15px;
+  margin-top: 10px;
+}
+.img{
+  width: 75px;
+  border-radius: 50%;
+}
+
+.login-btn{
+  width: 100px;
+  height: 30px;
+  border-radius: 30px;
+  border: none;
+  margin-top: 10px;
+
+}
+.login-btn:hover{
+  background-color: lightgreen;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;width: 125px;
+}
+.user-img{
+  height: 70px;
+  margin-bottom: 30px;
+}
+.user-card{
+
+height: fit-content;
+margin: 50px;
+padding: 20px;
+border-radius: 30px;
+background-color: #f480df;
+/* display: flex; */
+
+}
+.user-card:hover{
+  box-shadow: #906ad8 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  border: 2px solid red
+}
+.card-container{
+  /* background-color: #BF40BF; */
+  display: flex;
+  height: 700px;
+  flex-wrap: wrap;
+ 
+ 
+}
+.emp{
+  background-color: skyblue;
+  text-align: center;
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.btn{
+ padding-bottom: 5px;
+  font-size: 15px;
+  color: navy;
+  --bs-btn-padding-y: 0.255rem;
+}
+.cust-btn{
+  width: 100px;
+  height: 30px;
+  border-radius: 30px;
+  border: none;
+  margin-top: 10px;
+  color: red;
+  border: 1px solid;
+}
+.cust-btn:hover{
+  background-color: lightgreen;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;width: 125px;
+
+}
+.w-btn{
+  width: 50px;
+  height: 30px;
+  font-size: 15px;
+  margin-right: 20px;
+  border-radius: 10px;
+  padding: 2px;
+}
+.edit{
+  background-color: skyblue;
+}
+.view{
+  background-color: lightgreen;
+}
+.delte{
+  background-color: lightcoral;
+}
+.wrong{
+  width: 500px;
+  margin: 100px;
+}
+.w-img{
+  width: 450px;
+}
+.cus-btn{
+  width: 90px;
+  height: 40px;
+  font-size: 13px;
+  /* margin-right: 20px; */
+  border-radius: 10px;
+  padding: 2px;
+  /* margin-left: 30px; */
+  margin: 50px 20px 0 30px
+}
+.msg{
+  margin: 50px auto;
+height: fit-content;
+width: 500px;
+box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+padding: 10px;
+}
